@@ -1,0 +1,75 @@
+body{
+    background-color: #0A0A0A;
+    color:#E0E0E0;
+}
+h1,h2,h3,h4,h5,h6,ul,li,p,a {font-family: 'Courier New', monospace;
+text-align: left; letter-spacing: 0.5px;
+
+}
+
+a:visited 
+{ color: rgb(255, 255, 255);}
+
+a {text-decoration: none;
+    font-style: oblique;
+    font-weight: 400;
+    font-size: 15px;
+    display: inline;
+
+}
+
+ul {list-style: circle;}
+
+p {line-height: 1.5;
+    font-size: 15px;
+}
+
+#header {text-align: center;
+    height: 50px; 
+    font-weight: 200px;
+}
+
+.proceed-btn{ 
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 15px;
+    padding: 0.25rem 0.25rem;
+    background-color: #000000;
+    color: #ffffff;
+    border:none ;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    opacity: 0.125 ;
+    transition: 2s;
+    margin-left:15px;
+}
+
+.proceed-btn:hover {
+    background-color: #000000;
+    opacity: 1;
+}
+
+.proceed-btn-secondary{ 
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    width: 5%;
+    font-size: 15px;
+    padding: 0.25rem 0.25rem;
+    background-color: #000000;
+    color: #ffffff;
+    border:solid #ffffff 1px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    opacity: 0.125 ;
+    transition: 1.5s;
+    margin-left:17px;
+}
+
+.proceed-btn-secondary:hover {
+    background-color: #000000;
+    color: #ffffff;
+    box-shadow: #ffffff 0 0 20px;
+    transition: 1.5s;
+    opacity: 0.9;
+}
