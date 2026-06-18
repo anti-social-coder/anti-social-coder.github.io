@@ -9,6 +9,4 @@ window.alert("Welcome " + username)
 
 console.log(username);
 
-  
-
 
