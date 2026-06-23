@@ -1,8 +1,8 @@
  body{
     background-color: #0A0A0A;
     color:#E0E0E0;
-h1,h2,h3,h4,h5,h6,ul,li,p,a {font-family: 'Courier New', monospace;
-text-align: left; letter-spacing: 0.5px;
+    h1,h2,h3,h4,h5,h6,ul,li,p,a {font-family: 'Courier New', monospace;
+    text-align: left; letter-spacing: 0.5px;
 }
 
 a:visited 

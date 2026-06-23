@@ -1,15 +1,20 @@
 body{
-    background-image: url('images/thebackg.jpg');
+    background-image: url('images/sky.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    color:white;
-    font-family:Comic Sans MS;
+    color:white;}
+    h1,h2,h3,h4,h5,h6,ul,li,p,a
+    {font-family:Comic Sans MS;
     text-align: left; letter-spacing: 0.5px;
     }
 
-.dashboard {
+p {line-height: 1.5;
+    font-size: 15px;
+  }
+
+.dashboard{
     width: 100%;
     display: flexbox -ms-inline-flexbox;
     flex-direction: row;
@@ -22,11 +27,10 @@ body{
     border-radius: 6px;
     border: 1px solid ;
     border-color: white;
-    text-align: center;
-    
+    text-align: center;  
 }
 
-.back-btn {
+.back-btn{
         background-color: transparent;
         color: white;
         border: 1px solid;
@@ -34,12 +38,32 @@ body{
         border-color:white;
         cursor: pointer;
     }
-    
-    .proceed-btn {
+
+.back-btn:hover{
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color:black;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+    .proceed-btn{
         background-color: transparent;
         color: white;
         border: 1px solid;
         border-radius: 5px;
         border-color:white;
         cursor: pointer;
+    }
+
+    .proceed-btn:hover{
+        background-color: white;
+        color: black;
+        border: 1px solid;
+        border-radius: 5px;
+        border-color:black;
+        cursor: pointer;
+        transition-duration: 1s;
     }
