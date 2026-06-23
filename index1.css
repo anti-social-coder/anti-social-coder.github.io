@@ -1,0 +1,45 @@
+body{
+    background-image: url('images/thebackg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+    font-family:Comic Sans MS;
+    text-align: left; letter-spacing: 0.5px;
+    }
+
+.dashboard {
+    width: 100%;
+    display: flexbox -ms-inline-flexbox;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1rem 1rem;
+    padding-top: 4px;
+    padding-bottom: 0.5rem;
+    gap: 1rem;
+    border-radius: 6px;
+    border: 1px solid ;
+    border-color: white;
+    text-align: center;
+    
+}
+
+.back-btn {
+        background-color: transparent;
+        color: white;
+        border: 1px solid;
+        border-radius: 5px;
+        border-color:white;
+        cursor: pointer;
+    }
+    
+    .proceed-btn {
+        background-color: transparent;
+        color: white;
+        border: 1px solid;
+        border-radius: 5px;
+        border-color:white;
+        cursor: pointer;
+    }
